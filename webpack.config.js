@@ -123,12 +123,12 @@ module.exports = {
     allowedHosts: "all",
     proxy: {
       // Updated as needed for development purposes
-      //   "/api/": {
-      //     target: "http://localhost:1323",
-      //     changeOrigin: false,
-      //     clientLogLevel: "debug",
-      //     secure: false,
-      //   }, //,
+        "/grpc/": {
+          target: "http://localhost:8099",
+          changeOrigin: false,
+          clientLogLevel: "debug",
+          secure: false,
+        }, //,
     },
   },
 };
