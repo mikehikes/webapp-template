@@ -29,7 +29,6 @@
       "downlevelIteration": true
     },
     "exclude": [
-      // "sqljs/*",
       "node_modules",
       "node_modules/*",
       // "serviceworker",
