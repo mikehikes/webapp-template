@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "baseUrl": "./src",
+  
+      "noImplicitAny": false,
+      "lib": ["es6", "dom", "ES2021.String", "ES2020", "ES2021", "webworker", "es5"],
+      "module": "es2022",
+      // "declaration": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "ES2020",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      // "emitDeclarationOnly": true,
+      "sourceMap": true,
+      "strict": false,
+      "alwaysStrict": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUncheckedIndexedAccess": true,
+      "noImplicitOverride": true,
+      "noPropertyAccessFromIndexSignature": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["src/global_types"],
+      "downlevelIteration": true
+    },
+    "exclude": [
+      // "sqljs/*",
+      "node_modules",
+      "node_modules/*",
+      // "serviceworker",
+      // "serviceworker/*",
+      // "*.TODO"
+    ]
+  }
+  

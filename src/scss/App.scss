@@ -1,0 +1,27 @@
+$primary: #0e5580;
+$secondary: #ffcf4f;
+$tertiary: #35a4b1;
+
+@import "./bootstrap-custom";
+@import "./variables.scss";
+
+/*
+  Various custom CSS variables - these are always changed or updated depending on the project
+*/
+
+body {
+  font-family: "Radio Canada", sans-serif !important;
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
