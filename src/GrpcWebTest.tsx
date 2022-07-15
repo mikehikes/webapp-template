@@ -36,7 +36,7 @@ const GrpcWebTest = () => {
 
   return (
     <Container>
-      <Row>
+      <Row className="m-3">
         <button
           onClick={() => {
             client
@@ -52,7 +52,8 @@ const GrpcWebTest = () => {
           Send PING to gPRC Test Server
         </button>
       </Row>
-      <Row>
+      <Row className="m-3">
+        Message: 
         <input
           type="text"
           value={message}
@@ -60,9 +61,9 @@ const GrpcWebTest = () => {
             setMessage(e.target.value);
           }}
         />
-      </Row>
-      <Row>
+
         <button
+          className="m-2"
           onClick={() => {
             client
               ?.helloWorld({ name: message })
@@ -76,7 +77,7 @@ const GrpcWebTest = () => {
         >
           "Send Message!"
         </button>
-        <p>{"Message Received: "}</p>
+        <p className="m-3">{"Message Received: "}</p>
         {response}
       </Row>
     </Container>
