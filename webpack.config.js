@@ -124,11 +124,11 @@ module.exports = {
     proxy: {
       // Updated as needed for development purposes
         "/grpc/": {
-          target: "http://localhost:8099",
+          target: "http://envoy:8099",
           changeOrigin: false,
           clientLogLevel: "debug",
           secure: false,
-        }, //,
+        }, //,e
     },
   },
 };
